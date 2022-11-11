@@ -36,7 +36,6 @@
         });
     };
 
-
     var ssInfoToggle = function() {
 
                $('.info-toggle').on('click', function(event) {
@@ -72,7 +71,7 @@
     * ------------------------------------------------------ */
     var ssFinalCountdown = function() {
 
-        var finalDate =  new Date("November 11, 2022 00:00:00").getTime();
+        var finalDate =  new Date("November 16, 2022 09:30:00").getTime();
         //-date: "Mar 25 2021",
 
         $('.home-content__clock').countdown(finalDate)
